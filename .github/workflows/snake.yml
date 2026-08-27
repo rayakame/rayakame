@@ -18,8 +18,8 @@ jobs:
         with:
           github_user_name: rayakame
           outputs: |
-            dist/snake-dark.svg?color_snake=#F26B1F&color_dots=#161616,#4a2410,#7a3a12,#b35317,#F26B1F
-            dist/snake-light.svg?color_snake=#F26B1F&color_dots=#EDE9DD,#E8C9A4,#E0A268,#D07C2F,#A85410
+            dist/snake-dark.svg?color_snake=#8B5CF6&color_dots=#1A1826,#312A52,#4C3C86,#6D4FC2,#8B5CF6
+            dist/snake-light.svg?color_snake=#8B5CF6&color_dots=#EDEAF5,#D6CBF2,#B49AEC,#9166F5,#6D28D9
 
       - name: Commit snake SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4

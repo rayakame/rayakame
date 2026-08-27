@@ -3,9 +3,9 @@
   <style>
     /*VARS*/
     :root{
-      --bg:#F4F1E8; --panel:#EAE5D6; --ink:#1C1A16; --muted:#6E6759;
-      --acc:#F26B1F; --accink:#B34700; --red:#A00009; --amber:#8A5A00;
-      --grn:#0E7C3A; --dim:#1C1A1626; --scan:#00000012;
+      --bg:#F2F0F7; --panel:#E6E1F0; --ink:#1B1726; --muted:#6E6880;
+      --acc:#7C3AED; --accink:#6D28D9; --red:#A00009; --amber:#5F7000;
+      --grn:#15803D; --dim:#1B172624; --scan:#00000012;
     }
     /*ENDVARS*/
     .mono{font-family:'JetBrains Mono','Cascadia Code','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace}
@@ -15,6 +15,10 @@
     .accf{fill:var(--acc)}
     .acct{fill:var(--accink)}
     .redf{fill:var(--red)}
+    .accs{stroke:var(--acc)}
+    .hzA{fill:var(--acc)}
+    .hzB{fill:var(--red)}
+    .swpS{stop-color:var(--acc)}
     .ambf{fill:var(--amber)}
     .grnf{fill:var(--grn)}
     .pgrid{fill:none;stroke:var(--dim);stroke-width:1}
@@ -85,14 +89,14 @@
       <rect class="slc" x="0" y="0" width="3" height="1"/>
     </pattern>
     <pattern id="haz" x="0" y="273" width="36" height="18" patternUnits="userSpaceOnUse">
-      <polygon fill="#F26B1F" points="0,18 18,0 27,0 9,18"/>
-      <polygon fill="#B0000A" points="18,18 36,0 45,0 27,18"/>
-      <polygon fill="#B0000A" points="-18,18 0,0 9,0 -9,18"/>
+      <polygon class="hzA" points="0,18 18,0 27,0 9,18"/>
+      <polygon class="hzB" points="18,18 36,0 45,0 27,18"/>
+      <polygon class="hzB" points="-18,18 0,0 9,0 -9,18"/>
     </pattern>
     <linearGradient id="swp" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F26B1F" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#F26B1F" stop-opacity=".16"/>
-      <stop offset="1" stop-color="#F26B1F" stop-opacity="0"/>
+      <stop class="swpS" offset="0" stop-opacity="0"/>
+      <stop class="swpS" offset=".5" stop-opacity=".16"/>
+      <stop class="swpS" offset="1" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="hazclip">
       <rect x="9" y="273" width="1182" height="17"/>
@@ -163,11 +167,11 @@
           <text class="mono ink" x="300" y="218" font-size="13" letter-spacing="1">&gt; MAGI.BOOT :: NODES [3/3] :: CONSENSUS — <tspan class="grnf">OK</tspan></text>
         </g>
         <g class="r2">
-          <text class="mono ink" x="300" y="240" font-size="13" letter-spacing="1">&gt; PATTERN <tspan class="acct" font-weight="700">ORANGE</tspan> // IDENT "RAYAKAME" // <tspan class="ambf">TUM.EI</tspan> // MUC.DE</text>
+          <text class="mono ink" x="300" y="240" font-size="13" letter-spacing="1">&gt; PATTERN <tspan class="acct" font-weight="700">VIOLET</tspan> // IDENT "RAYAKAME" // <tspan class="ambf">TUM.EI</tspan> // MUC.DE</text>
         </g>
         <g class="r3">
           <text class="mono ink" x="300" y="262" font-size="13" letter-spacing="1">&gt; SYNC.RATE</text>
-          <rect x="400" y="251" width="180" height="11" fill="none" stroke="#F26B1F" opacity=".8" stroke-width="1"/>
+          <rect class="accs" x="400" y="251" width="180" height="11" fill="none" opacity=".8" stroke-width="1"/>
           <rect class="accf" x="402" y="253" width="0" height="7">
             <animate attributeName="width" from="0" to="167" begin="3.8s" dur="1.4s" fill="freeze"/>
           </rect>

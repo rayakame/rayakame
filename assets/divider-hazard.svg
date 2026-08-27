@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 26" width="1200" height="26" role="img" aria-label="section divider — hazard stripes">
   <defs>
     <pattern id="hz" x="0" y="7" width="24" height="12" patternUnits="userSpaceOnUse">
-      <polygon fill="#F26B1F" points="0,12 12,0 18,0 6,12"/>
+      <polygon fill="#8B5CF6" points="0,12 12,0 18,0 6,12"/>
       <polygon fill="#B0000A" points="12,12 24,0 30,0 18,12"/>
       <polygon fill="#B0000A" points="-12,12 0,0 6,0 -6,12"/>
     </pattern>
@@ -9,10 +9,10 @@
       <rect x="10" y="7" width="1180" height="12"/>
     </clipPath>
   </defs>
-  <rect x="10" y="2" width="1180" height="1" fill="#F26B1F" opacity=".5"/>
-  <rect x="10" y="23" width="1180" height="1" fill="#F26B1F" opacity=".5"/>
-  <rect x="2" y="2" width="3" height="22" fill="#F26B1F" opacity=".8"/>
-  <rect x="1195" y="2" width="3" height="22" fill="#F26B1F" opacity=".8"/>
+  <rect x="10" y="2" width="1180" height="1" fill="#8B5CF6" opacity=".5"/>
+  <rect x="10" y="23" width="1180" height="1" fill="#8B5CF6" opacity=".5"/>
+  <rect x="2" y="2" width="3" height="22" fill="#8B5CF6" opacity=".8"/>
+  <rect x="1195" y="2" width="3" height="22" fill="#8B5CF6" opacity=".8"/>
   <g clip-path="url(#bandclip)">
     <g>
       <animateTransform attributeName="transform" type="translate" from="0 0" to="24 0" dur="2s" repeatCount="indefinite"/>
