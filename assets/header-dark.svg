@@ -163,7 +163,7 @@
           <text class="mono ink" x="300" y="218" font-size="13" letter-spacing="1">&gt; MAGI.BOOT :: NODES [3/3] :: CONSENSUS — <tspan class="grnf">OK</tspan></text>
         </g>
         <g class="r2">
-          <text class="mono ink" x="300" y="240" font-size="13" letter-spacing="1">&gt; PATTERN <tspan class="acct" font-weight="700">ORANGE</tspan> // IDENT "RAYAKAME" // <tspan class="ambf">TUM.INFORMATIK</tspan> // MUC.DE</text>
+          <text class="mono ink" x="300" y="240" font-size="13" letter-spacing="1">&gt; PATTERN <tspan class="acct" font-weight="700">ORANGE</tspan> // IDENT "RAYAKAME" // <tspan class="ambf">TUM.EI</tspan> // MUC.DE</text>
         </g>
         <g class="r3">
           <text class="mono ink" x="300" y="262" font-size="13" letter-spacing="1">&gt; SYNC.RATE</text>
