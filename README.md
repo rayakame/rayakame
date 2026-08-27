@@ -16,8 +16,8 @@ STATUS ....... ONLINE — pattern violet
 <div align="center">
   <img src="https://img.shields.io/badge/GO-0B0A12?style=flat-square&logo=go&logoColor=8B5CF6" alt="Go">
   <img src="https://img.shields.io/badge/PYTHON-0B0A12?style=flat-square&logo=python&logoColor=8B5CF6" alt="Python">
-  <img src="https://img.shields.io/badge/DART-0B0A12?style=flat-square&logo=dart&logoColor=8B5CF6" alt="Dart">
-  <img src="https://img.shields.io/badge/FLUTTER-0B0A12?style=flat-square&logo=flutter&logoColor=8B5CF6" alt="Flutter">
+  <img src="https://img.shields.io/badge/C-0B0A12?style=flat-square&logo=c&logoColor=8B5CF6" alt="C">
+  <img src="https://img.shields.io/badge/C%2B%2B-0B0A12?style=flat-square&logo=cplusplus&logoColor=8B5CF6" alt="C++">
   <img src="https://img.shields.io/badge/SQL-0B0A12?style=flat-square&logo=postgresql&logoColor=8B5CF6" alt="SQL">
   <img src="https://img.shields.io/badge/LINUX-0B0A12?style=flat-square&logo=linux&logoColor=8B5CF6" alt="Linux">
   <img src="https://img.shields.io/badge/DOCKER-0B0A12?style=flat-square&logo=docker&logoColor=8B5CF6" alt="Docker">
