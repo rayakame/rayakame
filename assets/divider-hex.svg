@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 30" width="1200" height="30" role="img" aria-label="section divider — hex scanline">
+  <defs>
+    <pattern id="hp" x="10" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M15,6 L22.79,10.5 L22.79,19.5 L15,24 L7.21,19.5 L7.21,10.5 Z" fill="none" stroke="#8B5CF6" stroke-width="1.3"/>
+    </pattern>
+    <clipPath id="swc">
+      <rect x="-140" y="0" width="120" height="30">
+        <animate attributeName="x" from="-140" to="1340" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect x="10" y="0" width="1170" height="30" fill="url(#hp)" opacity=".28"/>
+  <g clip-path="url(#swc)">
+    <rect x="10" y="0" width="1170" height="30" fill="url(#hp)" opacity=".95"/>
+  </g>
+</svg>

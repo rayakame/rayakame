@@ -1,60 +1,43 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+    <img src="assets/header-dark.svg" alt="rayakame — MAGI system boot sequence" width="100%">
+  </picture>
+</div>
 
-###
+```
+IDENT ........ Christopher — "rayakame"
+FIELD ........ Elektro- und Informationstechnik @ TUM
+BASE ......... Munich, DE
+STATUS ....... ONLINE — pattern violet
+```
 
 <div align="center">
-  <a href="https://discordapp.com/users/1190760564000030741" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
+  <img src="https://img.shields.io/badge/GO-0B0A12?style=flat-square&logo=go&logoColor=8B5CF6" alt="Go">
+  <img src="https://img.shields.io/badge/PYTHON-0B0A12?style=flat-square&logo=python&logoColor=8B5CF6" alt="Python">
+  <img src="https://img.shields.io/badge/C-0B0A12?style=flat-square&logo=c&logoColor=8B5CF6" alt="C">
+  <img src="https://img.shields.io/badge/C%2B%2B-0B0A12?style=flat-square&logo=cplusplus&logoColor=8B5CF6" alt="C++">
+  <img src="https://img.shields.io/badge/SQL-0B0A12?style=flat-square&logo=postgresql&logoColor=8B5CF6" alt="SQL">
+  <img src="https://img.shields.io/badge/LINUX-0B0A12?style=flat-square&logo=linux&logoColor=8B5CF6" alt="Linux">
+  <img src="https://img.shields.io/badge/DOCKER-0B0A12?style=flat-square&logo=docker&logoColor=8B5CF6" alt="Docker">
+  <img src="https://img.shields.io/badge/PROXMOX-0B0A12?style=flat-square&logo=proxmox&logoColor=8B5CF6" alt="Proxmox">
+</div>
+
+<img src="assets/divider-hazard.svg" alt="" width="100%">
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rayakame/rayakame/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rayakame/rayakame/output/snake-light.svg">
+    <img src="https://raw.githubusercontent.com/rayakame/rayakame/output/snake-dark.svg" alt="contribution trace" width="100%">
+  </picture>
+</div>
+
+<div align="center">
+  <a href="https://discordapp.com/users/1190760564000030741">
+    <img src="https://img.shields.io/badge/COMMS-DISCORD-8B5CF6?style=flat-square&logo=discord&logoColor=8B5CF6&labelColor=0B0A12" alt="Discord">
   </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=rayakame.rayakame&"  />
+  <br><br>
+  <sub><code>MAGI SYS // SESSION TERMINATED — CONNECTION PRESERVED</code></sub>
 </div>
-
-
-###
-
-<h1 align="center">hey there 👋</h1>
-
-###
-
-<h3 align="left">👩‍💻  About Me</h3>
-
-###
-
-<p align="left">I'm Christopher from Munich, Germany<br><br>- 🔭 I’m working as a medical receptionist and tech support.<br>- 📚 I'm currently going to highschool.<br>- ⚡ In my free time, I enjoy programming, learning new things, and going to the gym.</p>
-
-###
-
-<h3 align="left">🛠 Language and tools</h3>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="40" alt="go logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" height="40" alt="pytest logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="40" alt="apple logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="40" alt="jetbrains logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-</div>
-
-###
-
-<h3 align="left">🔥   My Stats :</h3>
-
-###
-
-<div align="center">
-
-  <img src="https://v0-git-hub-streak-score-card-phi.vercel.app/api/card-with-avatar?username=rayakame&theme=%7B%22backgroundColor%22%3A%22%230f172a%22%2C%22textColor%22%3A%22%23e2e8f0%22%2C%22accentColor%22%3A%22%230ea5e9%22%2C%22borderColor%22%3A%22%231e293b%22%2C%22waterColor%22%3A%22%230ea5e9%22%2C%22streakColor%22%3A%22%2306b6d4%22%7D" alt="GitHub Streak" />
-
-</div>
-
-###

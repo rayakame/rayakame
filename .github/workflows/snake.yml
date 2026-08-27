@@ -1,0 +1,30 @@
+name: telemetry-snake
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: rayakame
+          outputs: |
+            dist/snake-dark.svg?color_snake=#8B5CF6&color_dots=#1A1826,#312A52,#4C3C86,#6D4FC2,#8B5CF6
+            dist/snake-light.svg?color_snake=#8B5CF6&color_dots=#EDEAF5,#D6CBF2,#B49AEC,#9166F5,#6D28D9
+
+      - name: Commit snake SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

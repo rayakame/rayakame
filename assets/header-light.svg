@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="rayakame — system boot">
+  <title>rayakame — MAGI SYS</title>
+  <style>
+    /*VARS*/
+    :root{
+      --bg:#F2F0F7; --panel:#E6E1F0; --ink:#1B1726; --muted:#6E6880;
+      --acc:#7C3AED; --accink:#6D28D9; --red:#A00009; --amber:#5F7000;
+      --grn:#15803D; --dim:#1B172624; --scan:#00000012;
+    }
+    /*ENDVARS*/
+    .mono{font-family:'JetBrains Mono','Cascadia Code','Fira Code',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+    .bgc{fill:var(--bg)}
+    .ink{fill:var(--ink)}
+    .mut{fill:var(--muted)}
+    .accf{fill:var(--acc)}
+    .acct{fill:var(--accink)}
+    .grnf{fill:var(--grn)}
+    .slc{fill:var(--scan)}
+    .brk{fill:none;stroke:var(--acc);stroke-width:2.5;opacity:.8}
+    .hexmain{fill:none;stroke:var(--acc);stroke-width:2.5;stroke-dasharray:330;stroke-dashoffset:330;animation:kdraw 1s ease-out .3s forwards}
+    .mgram{fill:none;stroke:var(--acc);stroke-width:5.5;stroke-linejoin:miter;opacity:0;animation:kfade .5s ease 1.1s forwards}
+    .L{opacity:0}
+    .L0{animation:kon .01s steps(1,end) 0.70s forwards}
+    .L1{animation:kon .01s steps(1,end) 0.84s forwards}
+    .L2{animation:kon .01s steps(1,end) 0.98s forwards}
+    .L3{animation:kon .01s steps(1,end) 1.12s forwards}
+    .L4{animation:kon .01s steps(1,end) 1.26s forwards}
+    .L5{animation:kon .01s steps(1,end) 1.40s forwards}
+    .L6{animation:kon .01s steps(1,end) 1.54s forwards}
+    .L7{animation:kon .01s steps(1,end) 1.68s forwards}
+    .gl1{opacity:0;fill:var(--red);animation:kg1 6.5s linear 2s infinite}
+    .gl2{opacity:0;fill:var(--grn);animation:kg2 6.5s linear 2s infinite}
+    .ul{fill:var(--acc);opacity:0;animation:kon .01s steps(1,end) 1.85s forwards}
+    .r1{opacity:0;animation:kon .01s steps(1,end) 2.2s forwards}
+    .blink{animation:kblink 1.1s steps(1,end) infinite}
+    .nd{opacity:0}
+    .nd1{animation:kon .01s steps(1,end) 1.5s forwards}
+    .nd2{animation:kon .01s steps(1,end) 1.7s forwards}
+    .nd3{animation:kon .01s steps(1,end) 1.9s forwards}
+    .cline{stroke:var(--acc);stroke-width:1;fill:none;opacity:0;--fo:.5;animation:kfade .4s ease 2s forwards}
+    .pnl{fill:var(--panel);stroke:var(--acc);stroke-width:1.2}
+    .dot{fill:var(--grn);animation:kpulse 1.6s ease-in-out infinite}
+    .d2{animation-delay:.5s}
+    .d3{animation-delay:1s}
+    .stx{animation:kbsoft 2.8s ease-in-out infinite}
+    .verd{opacity:0;animation:kon .01s steps(1,end) 4s forwards}
+    @keyframes kpulse{0%,100%{opacity:.25}50%{opacity:1}}
+    @keyframes kbsoft{0%,100%{opacity:.95}50%{opacity:.3}}
+    @keyframes kon{to{opacity:1}}
+    @keyframes kfade{to{opacity:var(--fo,1)}}
+    @keyframes kdraw{to{stroke-dashoffset:0}}
+    @keyframes kblink{0%{opacity:1}55%{opacity:0}100%{opacity:1}}
+    @keyframes kg1{0%{opacity:0}1%{opacity:.75}2.2%{opacity:0}55%{opacity:0}55.8%{opacity:.6}56.6%{opacity:0}100%{opacity:0}}
+    @keyframes kg2{0%{opacity:0}0.6%{opacity:.6}1.8%{opacity:0}55.3%{opacity:0}56%{opacity:.55}57%{opacity:0}100%{opacity:0}}
+  </style>
+  <defs>
+    <pattern id="slpat" x="0" y="0" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect class="slc" x="0" y="0" width="3" height="1"/>
+    </pattern>
+  </defs>
+
+  <rect class="bgc" x="0" y="0" width="1200" height="240"/>
+
+  <g transform="translate(0,120)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1 0.004;1 1.02;1 1" keyTimes="0;0.8;1" dur="0.55s" fill="freeze"/>
+      <g transform="translate(0,-120)">
+
+        <path class="brk" d="M10,32 L10,10 L32,10"/>
+        <path class="brk" d="M1168,10 L1190,10 L1190,32"/>
+        <path class="brk" d="M10,208 L10,230 L32,230"/>
+        <path class="brk" d="M1190,208 L1190,230 L1168,230"/>
+
+        <text class="mono mut" x="32" y="34" font-size="10" letter-spacing="2">MAGI SYS // v5.27</text>
+
+        <polygon class="hexmain" points="118,66 164.8,93 164.8,147 118,174 71.2,147 71.2,93"/>
+        <path class="mgram" d="M103,94 L103,146 M103,94 L129,94 L135,103 L135,116 L129,126 L103,126 M118,126 L137,146"/>
+
+        <g class="mono ink" font-size="88" font-weight="700">
+          <text class="gl1" x="250" y="130" transform="translate(3,-2)" textLength="432" lengthAdjust="spacingAndGlyphs">rayakame</text>
+          <text class="gl2" x="250" y="130" transform="translate(-3,2)" textLength="432" lengthAdjust="spacingAndGlyphs">rayakame</text>
+          <text class="L L0" x="250" y="130">r</text>
+          <text class="L L1" x="304" y="130">a</text>
+          <text class="L L2" x="358" y="130">y</text>
+          <text class="L L3" x="412" y="130">a</text>
+          <text class="L L4" x="466" y="130">k</text>
+          <text class="L L5" x="520" y="130">a</text>
+          <text class="L L6" x="574" y="130">m</text>
+          <text class="L L7" x="628" y="130">e</text>
+        </g>
+        <rect class="ul" x="250" y="154" width="432" height="3"/>
+
+        <g class="r1">
+          <text class="mono ink" x="252" y="192" font-size="13" letter-spacing="1">&gt; PATTERN <tspan class="acct" font-weight="700">VIOLET</tspan> :: SYNC.RATE <tspan class="grnf">98.2%</tspan> // <tspan class="mut">TUM.EI // MUC.DE</tspan></text>
+          <rect class="accf blink" x="758" y="181" width="8" height="12"/>
+        </g>
+
+        <text class="mono mut nd nd1" x="1000" y="48" font-size="11" letter-spacing="3" text-anchor="middle">MAGI CONSENSUS</text>
+        <path class="cline" d="M1000,100 L908,156 M1000,100 L1092,156 M978,175 L1022,175"/>
+        <g class="nd nd1">
+          <rect class="pnl" x="930" y="62" width="140" height="38" rx="2"/>
+          <circle class="dot" cx="942" cy="73" r="3"/>
+          <text class="mono ink" x="1000" y="78" font-size="11" letter-spacing="1" text-anchor="middle">MELCHIOR·1</text>
+          <text class="mono grnf stx" x="1000" y="92" font-size="8" letter-spacing="2" text-anchor="middle">NOMINAL</text>
+        </g>
+        <g class="nd nd2">
+          <rect class="pnl" x="838" y="156" width="140" height="38" rx="2"/>
+          <circle class="dot d2" cx="850" cy="167" r="3"/>
+          <text class="mono ink" x="908" y="172" font-size="11" letter-spacing="1" text-anchor="middle">BALTHASAR·2</text>
+          <text class="mono grnf stx" x="908" y="186" font-size="8" letter-spacing="2" text-anchor="middle">NOMINAL</text>
+        </g>
+        <g class="nd nd3">
+          <rect class="pnl" x="1022" y="156" width="140" height="38" rx="2"/>
+          <circle class="dot d3" cx="1034" cy="167" r="3"/>
+          <text class="mono ink" x="1092" y="172" font-size="11" letter-spacing="1" text-anchor="middle">CASPER·3</text>
+          <text class="mono grnf stx" x="1092" y="186" font-size="8" letter-spacing="2" text-anchor="middle">NOMINAL</text>
+        </g>
+        <text class="mono mut verd" x="1000" y="222" font-size="11" letter-spacing="1" text-anchor="middle">DELIBERATION COMPLETE — 3/3 <tspan class="grnf" font-weight="700">GRANTED</tspan></text>
+
+        <rect x="0" y="0" width="1200" height="240" fill="url(#slpat)" pointer-events="none"/>
+
+      </g>
+    </g>
+  </g>
+
+  <rect class="accf" x="0" y="0" width="1200" height="240" opacity=".5" pointer-events="none">
+    <animate attributeName="opacity" values=".5;0" dur=".4s" fill="freeze"/>
+  </rect>
+</svg>
