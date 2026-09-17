@@ -10,6 +10,7 @@
 IDENT ........ Christopher — "rayakame"
 FIELD ........ Elektro- und Informationstechnik @ TUM
 BASE ......... Munich, DE
+UPLINK ....... https://rayakame.dev
 STATUS ....... ONLINE — pattern violet
 ```
 
@@ -35,6 +36,9 @@ STATUS ....... ONLINE — pattern violet
 </div>
 
 <div align="center">
+  <a href="https://rayakame.dev/">
+    <img src="https://img.shields.io/badge/UPLINK-RAYAKAME.DEV-8B5CF6?style=flat-square&labelColor=0B0A12" alt="Website">
+  </a>
   <a href="https://discordapp.com/users/1190760564000030741">
     <img src="https://img.shields.io/badge/COMMS-DISCORD-8B5CF6?style=flat-square&logo=discord&logoColor=8B5CF6&labelColor=0B0A12" alt="Discord">
   </a>
