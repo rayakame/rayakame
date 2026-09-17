@@ -8,7 +8,7 @@
 
 ```
 IDENT ........ Christopher — "rayakame"
-FIELD ........ Elektro- und Informationstechnik @ TUM
+FIELD ........ Electrical Engineering & Information Technology @ TUM
 BASE ......... Munich, DE
 UPLINK ....... https://rayakame.dev
 STATUS ....... ONLINE — pattern violet
